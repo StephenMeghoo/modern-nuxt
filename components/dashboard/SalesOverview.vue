@@ -87,7 +87,7 @@ const chartOptions = computed(() => {
     <v-card elevation="10" class="withbg">
         <v-card-item>
             <div class="d-sm-flex align-center justify-space-between pt-sm-2">
-                <div><v-card-title class="text-h5">Sales Overview</v-card-title></div>
+                <div><v-card-title class="text-h5">Sales Overview Statistics</v-card-title></div>
                 <div class="my-sm-0 my-2">
                     <v-select v-model="select" :items="items" variant="outlined" density="compact"
                         hide-details></v-select>
